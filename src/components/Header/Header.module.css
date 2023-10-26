@@ -1,0 +1,19 @@
+.header {
+    background-color: #E16120;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    position: relative;
+    z-index: 100;
+    transition: .5s ease-in;
+}
+
+.header-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.header button {
+    border: none;
+}

@@ -1,0 +1,117 @@
+.single-meal {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    background-color: #f5f5f5;
+}
+
+.single-meal .meal-head {
+    background-color: #E16120;
+}
+
+.single-meal .meal-head span {
+    font-size: 15px;
+}
+
+.single-meal .title {
+    position: relative;
+    letter-spacing: 3px;
+}
+
+.single-meal .title::after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 0px;
+    background-color: #E16120;
+    width: 70px;
+    height: 3px;
+}
+
+.single-meal .meal {
+    background-color: white;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    padding: 45px;
+}
+
+.single-meal .meal-details h4 {
+    border-bottom: 1px solid #E16120;
+}
+
+.single-meal .meal-details a {
+    transition: .4s ease-in;
+}
+
+.single-meal .meal-details a:hover {
+    color: #E16120 !important;
+}
+
+.single-meal .meal-details h6 span {
+    color: #E16120;
+    border: 1px solid #E16120;
+    font-weight: 400;
+    border-radius: 4px;
+    padding: 5px 8px;
+    margin-left: 6px;
+    font-size: 14px;
+}
+
+.single-meal .ingredients {
+    background-color: #E16120;
+    padding: 16px;
+    padding-bottom: 1px !important;
+    color: white;
+}
+
+.single-meal .ingredients ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.single-meal .ingredients .icon {
+    background-color: #3A9691;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 12px;
+    margin-bottom: 8px;
+    margin-right: 7px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+}
+
+.single-meal .ingredients .item {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.single-meal .measure ul {
+    background-color: rgba(0, 0, 0, 0.01);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.single-meal .instructions li {
+    display: grid;
+    grid-template-columns: 25px auto;
+}
+
+.single-meal .instructions svg {
+    margin-top: 3px;
+}
+
+.single-meal .instructions span {
+    font-size: 15px;
+}
+
+@media(max-width: 560px) {
+    .single-meal .ingredients ul {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 10px;
+    }
+}
