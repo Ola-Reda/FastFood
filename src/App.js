@@ -1,9 +1,6 @@
 import React, {useState} from 'react'
-import './App.css';
 import {Routes, Route} from 'react-router-dom'
-import Header from './components/Header/Header'
-import SideBar from './components/SideBar/SideBar';
-import Main from './components/Main/Main';
+import { Header, SideBar, Main } from './components/index'
 import { Home, MealDetails, MealCategory, Error  } from './pages/index';
 import CategoryProvider from './store/category-context';
 import MealProvider from './store/meal-context';

@@ -48,7 +48,7 @@ const SingleMeal = (props) => {
                             </p>
                             <p className="mb-4">
                                 <span className='fw-bold text-capitalize pe-1'>source: </span>
-                                <a href={meal.strSource} target="blank" className="text-black text-decoration-none">{meal.strSource ? (meal?.strSource).substring(0, 40) + "..." : "Not Found" }</a>
+                                <a href={meal.strSource} target="blank" className="text-black text-decoration-none">{meal.strSource ? (meal?.strSource).substring(0, 30) + "..." : "Not Found" }</a>
                             </p>
                             <h6 className='fw-bold text-capitalize mb-4'>
                                 tags: 

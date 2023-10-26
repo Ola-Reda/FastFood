@@ -1,5 +1,5 @@
 import React from 'react'
-import SearchForm from './SearchForm'
+import { SearchForm } from '../index'
 import classes from './Main.module.css'
 
 const Main = () => {

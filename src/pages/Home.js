@@ -1,10 +1,8 @@
 import React, { useContext } from 'react'
-import Categories from '../components/Categories/Categories';
+import { Categories, Loader, Meals, NotFound } from '../components/index';
 import { CategoryContext } from '../store/category-context';
-import Loader from '../components/Loader/Loader'
 import { MealContext } from '../store/meal-context';
-import Meals from '../components/Meals/Meals';
-import NotFound from '../components/NotFound/NotFound'
+
 
 const Home = () => {
     const ctx = useContext(CategoryContext)

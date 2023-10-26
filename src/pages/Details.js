@@ -1,8 +1,6 @@
 import React, {useState, useEffect, useContext} from 'react'
 import {useParams} from 'react-router-dom'
-import SingleMeal from '../components/Meals/SingleMeal'
-import Categories from '../components/Categories/Categories';
-import Loader from '../components/Loader/Loader'
+import { SingleMeal, Categories, Loader } from '../components/index'
 import { CategoryContext } from '../store/category-context';
 
 

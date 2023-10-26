@@ -8,3 +8,13 @@
     flex-direction: column;
     text-align: center;
 }
+
+@media (max-width:576px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
